@@ -14,30 +14,25 @@ export default ({ children }) => (
   <Container>
     <header style={{ marginBottom: `1.5rem` }}>
       <ul style={{ listStyle: `none`, float: `right` }}>
-        <ListLink to="/contact">contact</ListLink>
+        <ListLink to="/subwaymap">subwaymap</ListLink>
         <ListLink to="/about">about</ListLink>
       </ul>
     </header>
     <div style={{ margin: `3rem auto`, maxWidth: 1000 }}>
-      <h1>Ruby's Website</h1>
+      <h1>New York subway</h1>
       <div>
         <p>
           You can also find me with this URL “
-          <a href="https://xl2590.wixsite.com/rubyrubywithp">rubyrubywithp</a>
+          <a href="https://xl2590.wixsite.com/rubyrubywithp"></a>
           ”.
         </p>
         <blockquote>
           <p>
-            This is the website that Ruby try those things first time. And glad
-            to see you. So yes, it is luck.{" "}
-            <em>
-              The particular thing you do is luck, but that you do something is
-              not.
-            </em>
+            This is a website for showing the NY subyway.{" "}
           </p>
         </blockquote>
       </div>
-      <p>Posted OCT 03, 2018</p>
+      <p>Posted Nov 15, 2018</p>
       <div>
         <img src={require("../pictures/background_photo.jpg")} />
       </div>

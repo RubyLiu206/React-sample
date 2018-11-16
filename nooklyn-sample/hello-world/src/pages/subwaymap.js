@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "gatsby";
 import Header from "../components/header";
 import Container from "../components/container";
+import body2 from "../components/body2";
+import body1 from "../components/body1";
 
 const ListLink = props => (
   <l1 style={{ display: "inline-block", marginRight: "1rem" }}>
@@ -19,8 +21,17 @@ export default () => (
     </Header>
     <div style={{ margin: "3rem auto", color: `teal`, maxWidth: "1000px" }}>
       <Header headerText="Contact" />
-      <p>Send us a message!</p>
-      <img src={require("../pictures/background_photo.jpg")} />
+      <p>left is the list,right is the map</p>
+    </div>
+    <div style = {{float : 'left', backgroundcolor : "teal", width: '50%' , height: '500px' }}>
+      <p>this is body1</p>
+      <p>this is body1</p>
+      <p>this is body1</p>
+    </div>
+    <div style =  {{float : 'right', backgroundcolor : "teal", width: '50%', height: '500px' }}>
+      <p>tstyle =his is body2</p>
+      <p>this is body2</p>
     </div>
   </Container>
+  
 );
