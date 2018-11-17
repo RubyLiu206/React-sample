@@ -47,7 +47,7 @@ var Map = React.createClass({
 				<div id="map"></div>
 			</div>
 		)
-	}
+}
 
 });
 

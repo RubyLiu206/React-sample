@@ -23,7 +23,7 @@ var LocationList = React.createClass({
 		}
 
 		return (
-			<div style = {{float : 'left', backgroundcolor : "teal", width: '50%' , height: '500px' }} className="list-group col-xs-12 col-md-6 col-md-offset-3">
+			<div style = {{ backgroundcolor : "teal", height: '500px' }} className="list-group col-xs-12 col-md-6 col-md-offset-3">
 				<span className="list-group-item active">Saved Locations</span>
 				{locations}
 			</div>

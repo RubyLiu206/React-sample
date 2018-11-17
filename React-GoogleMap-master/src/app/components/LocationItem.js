@@ -7,11 +7,8 @@ var LocationItem = React.createClass({
 	handleClick(){
 		this.props.onClick(this.props.address);
 	},
-
 	render(){
-
 		var cn = "list-group-item";
-
 		if(this.props.active){
 			cn += " active-location";
 		}
@@ -25,7 +22,6 @@ var LocationItem = React.createClass({
 		)
 
 	}
-
 });
 
 module.exports = LocationItem;

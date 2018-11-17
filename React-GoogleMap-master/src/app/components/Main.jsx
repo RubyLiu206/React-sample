@@ -18,11 +18,10 @@ var Main = React.createClass({
             favorites = JSON.parse(localStorage.favorites);
         }
 
-        // Nobody would get mad if we center it on Paris by default
-
+       
         return {
             favorites: favorites,
-            currentAddress: 'New York, United State',
+            currentAddress: 'New York, United States',
             mapCoordinates: {
                 lat: 40.7128,
                 lng: 74.0060
